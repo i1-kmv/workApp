@@ -54,7 +54,7 @@ export const SearchVacancyPage: FC = () => {
     return (
         <>
             <SearchArea/>
-            {isLoading ? <div className="filters-loader"><Loader/></div> :
+
                 <div className="filters">
                     <Filters
                         regionList={regionList}
@@ -64,8 +64,9 @@ export const SearchVacancyPage: FC = () => {
                         cityHandler={setCityFilterValue}
                         clientHandler={setClientFilterValue}
                     />
-                    <Cards vacancies={filteredVacancies}/>
-                </div>}
+                    {isLoading ? <div className="filters-loader"><Loader/></div> :
+                    <Cards vacancies={filteredVacancies}/>}
+                </div>
         </>
     )
 }
