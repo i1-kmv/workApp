@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/workApp/static/css/main.3a1a3df2.css",
+    "main.css": "/workApp/static/css/main.27766b12.css",
     "main.js": "/workApp/static/js/main.866d3ffd.js",
     "static/media/TTCommons-ThinItalic.eot": "/workApp/static/media/TTCommons-ThinItalic.ce7708f0336f10b912be.eot",
     "static/media/TTCommons-ThinItalic.ttf": "/workApp/static/media/TTCommons-ThinItalic.3234b29ac9f7e758154f.ttf",
@@ -77,11 +77,11 @@
     "static/media/logo.0af49e8.svg": "/workApp/static/media/logo.0af49e8.0af49e8e480ebae33015ba4701b051a7.svg",
     "index.html": "/workApp/index.html",
     "static/media/lock.svg": "/workApp/static/media/lock.3c40002da51e98d7c4e72acc6fb3f959.svg",
-    "main.3a1a3df2.css.map": "/workApp/static/css/main.3a1a3df2.css.map",
+    "main.27766b12.css.map": "/workApp/static/css/main.27766b12.css.map",
     "main.866d3ffd.js.map": "/workApp/static/js/main.866d3ffd.js.map"
   },
   "entrypoints": [
-    "static/css/main.3a1a3df2.css",
+    "static/css/main.27766b12.css",
     "static/js/main.866d3ffd.js"
   ]
 }
