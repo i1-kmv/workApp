@@ -15,6 +15,7 @@
     width: 500px
     height: 550px
     border-radius: 6px
+    margin: 0 10px
   &-header
     margin-bottom: 10px
     width: 100%
@@ -80,9 +81,20 @@
 
 @media (max-width: 520px )
   .popup
+    &-content
+      width: 90%
     &-wrapper
       padding: 0 10px
     &-agreements
       margin-bottom: 15px
+      &_checkbox
+        margin-right: 8px
+    &-header
+      align-items: center
+      padding-top: 10px
+      &_title
+        font-size: 30px
+    &-form
+      padding: 0
 
 
